@@ -15,6 +15,7 @@ function App() {
             <Row title= "Lecture en cours" fetchUrl={requests.fetchLectureEnCours} isLargeRow/>
             <Row title= "En salle de cinema" fetchUrl={requests.fetchEnSalleDeCinema} isLargeRow/>
             <Row title= "Les mieux notés" fetchUrl={requests.fetchLesMieuxNotes} isLargeRow/>
+            <Row title= "Arrive bientôt" fetchUrl={requests.fetchArrivebientôt} isLargeRow/>
         </div>
     )
 }
