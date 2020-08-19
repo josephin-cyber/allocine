@@ -7,11 +7,11 @@ import './Row.css';
 
 function Banner() {
     const [movie, setMovie] = useState([]);
-    const[rechercherfilm, setRechercherfilm]=useState("");
+    // const[rechercherfilm, setRechercherfilm]=useState("");
 
-    const inputChange= (e)=>{
-        setRechercherfilm(e.target.value);
-    }
+    // const inputChange= (e)=>{
+    //     setRechercherfilm(e.target.value);
+    // }
     
 
     useEffect(() => {
@@ -52,9 +52,9 @@ function Banner() {
 
                 
             </div>
-            <input
+            {/* <input
             onChange={inputChange}
-            />
+            /> */}
             
             <div className="banner_fadeBottom" />
             
