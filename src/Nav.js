@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './Nav.css'
 import logo from './img/allocine.png'
 
+
 function Nav(){
     const [show, handleShow]= useState(false);
     useEffect(()=>{
@@ -23,6 +24,8 @@ function Nav(){
             src={logo}
             alt="logo_allociné"
             />
+
+
 
         </div>
     )

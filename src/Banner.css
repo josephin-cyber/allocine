@@ -4,6 +4,12 @@
     height: 448px;
 }
 
+.search{
+height:"30px";
+width:"600px"; 
+display: flex;
+}
+
 .banner_contents{
     margin-left: 30px;
     padding-top: 140px;
@@ -16,7 +22,7 @@
     padding-bottom: 0.3rem;
 }
 .banner_description{
-    width: 45rem;
+    width: 60rem;
     line-height: 1.3rem;
     padding-top: 1rem;
     font-size: 0.8rem;
@@ -24,7 +30,7 @@
     height: 80px;
 }
 
-.banner_button{
+/* .banner_button{
     cursor: pointer;
     color: #fff;
     outline: none;
@@ -38,13 +44,13 @@
     background-color: rgba(51, 51, 51, 0.5);
     padding-bottom: 0.5rem;
 
-}
+} */
 
-.banner_button:hover{
+/* .banner_button:hover{
     color: #000;
     background-color: #e6e6e6;
     transition: all 0.2s;
-}
+} */
 
 .banner_fadeBottom{
     height: 7.4rem;
